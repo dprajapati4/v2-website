@@ -8,8 +8,8 @@ export const SocialLink = ({ social }) => {
       <Icon
         as={icon}
         aria-label={name}
-        w={3}
-        h={3}
+        w={5}
+        h={5}
         _hover={{ color: "teal.500" }}
       />
     </Link>
