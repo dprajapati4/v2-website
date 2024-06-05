@@ -18,9 +18,6 @@ export const Tdata = ({ children }) => {
       fontWeight={"bold"}
       textTransform={"uppercase"}
       letterSpacing={"wider"}
-      // whiteSpace="normal"
-      // wordBreak="break-word"
-      // overflowWrap="break-word"
       fontSize={{ base: "sm", md: "md" }}
     >
       {children}
@@ -36,17 +33,9 @@ export const ExperienceTable = ({ experiences }) => {
           <Tbody>
             {experiences.map((experience, i) => (
               <React.Fragment key={i}>
-                <Tr
-                //  display={{ base: "block", md: "table-row" }}
-                >
-                  <Tdata
-                  // width="40%"
-                  >
-                    {experience.date}
-                  </Tdata>
-                  <Tdata
-                  // width="60%"
-                  >
+                <Tr>
+                  <Tdata>{experience.date}</Tdata>
+                  <Tdata>
                     {experience.title} -{" "}
                     <Box as="span" color="teal.500">
                       <Link href={experience.link} isExternal>
@@ -62,13 +51,7 @@ export const ExperienceTable = ({ experiences }) => {
                   ></Td>
                   <Td
                     w={{ base: "100%", md: "48%" }}
-                    // display={{ base: "block", md: "table-cell" }}
                     color="gray.600"
-                    // whiteSpace="normal"
-                    // wordBreak="break-word"
-                    // overflowWrap="break-word"
-                    // fontSize={{ base: "sm", md: "md" }} // Responsive font size
-                    // fontSize={{ base: "xs", md: "sm" }} // Resp
                     fontSize={"sm"}
                     colSpan={{ base: 2, md: 1 }}
                   >
