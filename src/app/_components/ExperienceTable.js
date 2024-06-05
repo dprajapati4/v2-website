@@ -11,7 +11,7 @@ import {
   Link,
 } from "@chakra-ui/react";
 
-const Tdata = ({ children }) => {
+export const Tdata = ({ children }) => {
   return (
     <Td
       fontWeight={"bold"}
@@ -36,7 +36,9 @@ export const ExperienceTable = ({ experiences }) => {
                 <Tdata>
                   {experience.title} -{" "}
                   <Box as="span" color="teal.500">
+                    <Link href={experience.link} isExternal >
                     {experience.employer}
+                    </Link>
                   </Box>
                 </Tdata>
               </Tr>

@@ -1,13 +1,13 @@
 "use client";
 
 import { Box, Heading } from "@chakra-ui/react";
-import { socials, experiences } from "./_lib/data";
+import { socials, experiences, projects } from "./_lib/data";
 import { SocialLink } from "./_components/SocialLink";
 import { ExperienceTable } from "./_components/ExperienceTable";
-
+import { ProjectsCard } from "./_components/ProjectCard";
 export default function Home() {
   return (
-    <Box minH={"100vh"} display={"flex"} flexDir={"column"}>
+    <Box minH={"100vh"} display={"flex"} flexDir={"column"} m={3} p={4}>
       <Box
         display="flex"
         flexWrap={"wrap"}
@@ -24,7 +24,7 @@ export default function Home() {
         <Heading as="h1" size="2xl">
           Deep Prajapati
         </Heading>
-        <Heading as="h2" size="lg" mt="1">
+        <Heading as="h2" size="md" mt="1">
           Full Stack Software Engineer
         </Heading>
         <Heading as={"h3"} size="sm" fontWeight="400" mt="3">
@@ -32,8 +32,9 @@ export default function Home() {
           software.
         </Heading>
       </Box>
-      <Box display={"flex"} justifyContent="space-between" w={'50%'}>
-        <Box>
+
+      <Box display={"flex"} justifyContent="space-between">
+        <Box w={"50%"}>
           <Heading
             as={"h2"}
             size="sm"
@@ -46,7 +47,24 @@ export default function Home() {
           </Heading>
           <ExperienceTable experiences={experiences} />
         </Box>
-        <Box>This holds the projects and is scrollable</Box>
+
+        <Box w={"50%"}>
+          <Box overflowY="auto" maxHeight="700px">
+            <Heading
+              as={"h2"}
+              size="sm"
+              mt="3"
+              fontWeight={"bold"}
+              textTransform={"uppercase"}
+              letterSpacing={"wider"}
+            >
+              Projects
+            </Heading>
+            {projects.map((project, i) => (
+              <ProjectsCard project={project} key={i} />
+            ))}
+          </Box>
+        </Box>
       </Box>
       <Box>This holds skills maybe</Box>
     </Box>
