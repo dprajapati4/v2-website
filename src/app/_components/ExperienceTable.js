@@ -19,7 +19,7 @@ export const Tdata = ({ children }) => {
       fontWeight={"bold"}
       textTransform={"uppercase"}
       letterSpacing={"wider"}
-      fontSize={{ base: "sm", md: "md" }}
+      fontSize={"sm"}
     >
       {children}
     </Td>

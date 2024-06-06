@@ -38,7 +38,7 @@ const ProjectCard = ({ project }) => {
               fontWeight={"bold"}
               textTransform={"uppercase"}
               letterSpacing={"wider"}
-              fontSize={{ base: "sm", md: "md" }}
+              fontSize={"sm"}
             >
               {project.name} <ExternalLinkIcon mx="2px" />{" "}
             </Text>{" "}
@@ -49,7 +49,7 @@ const ProjectCard = ({ project }) => {
           </Text>
         </CardBody>
 
-        <CardFooter>
+        <CardFooter flexWrap="wrap">
           {project.technologies.map((tech, i) => (
             <TechnologyTag tag={tech} key={i} />
           ))}

@@ -16,7 +16,15 @@ import { Projects } from "./_components/ProjectCard";
 
 export default function Home() {
   return (
-    <Box minH={"100vh"} display={"flex"} flexDir={"column"} m={3} p={4}>
+    <Box
+      minH={"100vh"}
+      display={"flex"}
+      flexDir={"column"}
+      p={4}
+      bgColor={"#f5f5f5"}
+      // bgGradient="linear(to bottom, #0f172a,  #9f86c0, #000000)"
+      // bgGradient="linear(to bottom, #b3d8ff, #5282cc)"
+    >
       <Box
         display="flex"
         flexWrap={"wrap"}
@@ -69,10 +77,24 @@ export default function Home() {
           >
             Projects
           </Heading>
-          <Tabs variant="enclosed" colorScheme={"teal"}>
+          <Tabs variant="line" colorScheme={"teal"}>
             <TabList>
-              <Tab>Featured</Tab>
-              <Tab>For Fun</Tab>
+              <Tab
+                fontWeight={"bold"}
+                textTransform={"uppercase"}
+                letterSpacing={"wider"}
+                fontSize="sm"
+              >
+                Featured
+              </Tab>
+              <Tab
+                fontWeight={"bold"}
+                textTransform={"uppercase"}
+                letterSpacing={"wider"}
+                fontSize="sm"
+              >
+                For Fun
+              </Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
@@ -85,7 +107,6 @@ export default function Home() {
           </Tabs>
         </Box>
       </Box>
-      <Box>This holds skills maybe</Box>
     </Box>
   );
 }
