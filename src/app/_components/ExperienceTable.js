@@ -10,6 +10,7 @@ import {
   TableContainer,
   Link,
 } from "@chakra-ui/react";
+import { TechnologyTag } from "./TechnologyTag";
 
 export const Tdata = ({ children }) => {
   return (
@@ -58,6 +59,19 @@ export const ExperienceTable = ({ experiences }) => {
                     {experience.description}
                   </Td>
                 </Tr>
+                {experience.technologies && (
+                  <Tr>
+                    <Td
+                      display={{ base: "none", md: "table-cell" }}
+                      width={"25%"}
+                    ></Td>
+                    <Td colSpan={{ base: 2, md: 1 }}>
+                      {experience.technologies.map((tech, i) => (
+                        <TechnologyTag tag={tech} key={i} />
+                      ))}
+                    </Td>
+                  </Tr>
+                )}
               </React.Fragment>
             ))}
           </Tbody>

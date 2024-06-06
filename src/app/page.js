@@ -69,7 +69,7 @@ export default function Home() {
           >
             Projects
           </Heading>
-          <Tabs variant="enclosed">
+          <Tabs variant="enclosed" colorScheme={"teal"}>
             <TabList>
               <Tab>Featured</Tab>
               <Tab>For Fun</Tab>

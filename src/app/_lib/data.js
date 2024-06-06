@@ -95,7 +95,17 @@ export const experiences = [
     employer: "Bounty",
     link: "https://www.bounty.co/",
     description:
-      "As a full stack engineer and first engineering hire at Bounty, I developed the first iterations of multiple platform projects, utilizing a comprehensive tech stack that includes TypeScript, ApolloGQL, React, and Next.js within a large monorepo. I played a key role in enhancing our in-house UI library by creating reusable components tailored for both mobile and web interfaces. Additionally, I designed and built internal tools for the Operations and Customer Support teams, streamlining their workflows and improving customer response times. ",
+      "As a full stack engineer and first engineering hire at Bounty, I developed the first iterations of multiple platform projects, utilizing a comprehensive tech stack that includes TypeScript, ApolloGQL, React, and Next within a large monorepo. I played a key role in enhancing our in-house UI library by creating reusable components tailored for both mobile and web interfaces. Additionally, I designed and built internal tools for the Operations and Customer Support teams, streamlining their workflows and improving customer response times. ",
+    technologies: [
+      "Typescript",
+      "React",
+      "Next",
+      "Apollo GraphQL",
+      "Node",
+      "Chakra UI",
+      "Tamagui",
+      "AG Grid",
+    ],
   },
   {
     date: "Feb 2019 - Jan 2021",
@@ -122,7 +132,13 @@ export const projects = [
     description:
       "A progressive web application to document your trip on the go. Include photos, text, and Google panoramic views. Track your trip with Google Map and share your photos with your friends and family.",
     link: "",
-    // technologies: ''
+    technologies: [
+      "Javascript",
+      "React",
+      "Firebase",
+      "Google Maps API",
+      "Grommet UI",
+    ],
   },
   {
     name: "Cafe Code Brew",
@@ -130,7 +146,15 @@ export const projects = [
     description:
       "A virtual a cafe experience. Cafe Code Brew allows its users to select a cafe ambience, music, view real cafes near you and order food. Use the onsite messaging to invite your friends to join your cafe experience.",
     link: "",
-    // technologies: ''
+    technologies: [
+      "Javascript",
+      "React",
+      "Node",
+      "Yelp API",
+      "Semantic UI",
+      "CSS",
+      "Twilio",
+    ],
   },
   {
     name: "PERN Boilerplate",
@@ -138,7 +162,7 @@ export const projects = [
     description:
       "A simple PERN boilerplate. Can use to jumpstart a fullstack project using Postgres, Express.js, React.js and Node.js. A fun project to learn the basics of building a project from scratch.",
     link: "",
-    // technologies: ''
+    technologies: ["Javascript", "React", "Express", "PostgreSQL", "Node"],
   },
   {
     name: "Starhopper - A mock e-commerce website",
@@ -146,25 +170,33 @@ export const projects = [
     description:
       "A mock e-commerce website that sells all inclusive starship tickets to intergalatic stars. Take a trip to Orion and explore meteor debris, star hiking and space games.",
     link: "",
-    // technologies: ''
+    technologies: [
+      "Javascript",
+      "React",
+      "Redux",
+      "Express",
+      "PostgreSQL",
+      "Node",
+      "CSS",
+    ],
   },
 ];
 
 export const funStuff = [
+  {
+    name: "Stardew Valley Profile",
+    imgUrl: "",
+    description: "Built a Stardew Valley Profile for my character. ",
+    link: "",
+    technologies: ["Javascript", "React", "Next", "CSS", "Chakra UI"],
+  },
   {
     name: "Snake Game",
     imgUrl: "",
     description:
       "A snake game inspired by the iconic the Nokia snake game. Built using vanilla Javascript, HTML, and CSS. Inspired by this simple tutorial.",
     link: "",
-    // technologies: ''
-  },
-  {
-    name: "Stardew Valley Profile",
-    imgUrl: "",
-    description: "Built a Stardew Valley Profile to pay",
-    link: "",
-    // technologies: ''
+    technologies: ["HTML", "CSS", "Javascript"],
   },
   {
     name: "Pokedex",
@@ -172,7 +204,7 @@ export const funStuff = [
     description:
       "Small React project created during an interview process to browse and search Pokémon via the Poke API.",
     link: "",
-    // technologies: ''
+    technologies: ["Javascript", "HTML", "CSS", "React"],
   },
   {
     name: "Parks and Recreation Gif Generator",
@@ -180,6 +212,6 @@ export const funStuff = [
     description:
       "A tribute to my love for Parks and Recreation, a character Gif generator. Choose between Leslie, Ron, Anne and other main characters and generate a funny gif from the show.",
     link: "",
-    // technologies: ''
+    technologies: ["Javascript", "React", "Giphy API", "Material UI"],
   },
 ];

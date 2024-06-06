@@ -10,7 +10,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-
+import { TechnologyTag } from "./TechnologyTag";
 const ProjectCard = ({ project }) => {
   return (
     <Card
@@ -49,7 +49,11 @@ const ProjectCard = ({ project }) => {
           </Text>
         </CardBody>
 
-        <CardFooter>Put techs here</CardFooter>
+        <CardFooter>
+          {project.technologies.map((tech, i) => (
+            <TechnologyTag tag={tech} key={i} />
+          ))}
+        </CardFooter>
       </Stack>
     </Card>
   );
