@@ -34,7 +34,7 @@ export default function Home() {
       </Box>
 
       <Box display={"flex"} flexWrap={"wrap"} justifyContent="space-between">
-        <Box w={{ base: "100%", md: "48%" }} mb={{ base: 4, md: 0 }}>
+        <Box w={{ base: "100%", lg: "48%" }} mb={{ base: 4, md: 0 }}>
           <Heading
             as={"h2"}
             size="sm"
@@ -48,7 +48,7 @@ export default function Home() {
           <ExperienceTable experiences={experiences} />
         </Box>
 
-        <Box w={{ base: "100%", md: "48%" }}>
+        <Box w={{ base: "100%", lg: "48%" }}>
           <Heading
             as={"h2"}
             size="sm"
@@ -59,7 +59,7 @@ export default function Home() {
           >
             Projects
           </Heading>
-          <Box overflowY="auto">
+          <Box overflowY="auto" p={4}>
             {projects.map((project, i) => (
               <ProjectsCard project={project} key={i} />
             ))}
