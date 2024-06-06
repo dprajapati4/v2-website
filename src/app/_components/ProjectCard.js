@@ -5,20 +5,20 @@ import {
   CardFooter,
   Image,
   Stack,
-  Button,
-  Heading,
   Text,
   Link,
+  Box,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
-export const ProjectsCard = ({ project }) => {
+const ProjectCard = ({ project }) => {
   return (
     <Card
       direction={{ base: "column", sm: "row" }}
       overflow="scroll"
       variant="elevated"
       // maxW="full"
+      p={2}
     >
       <Image
         objectFit="cover"
@@ -52,5 +52,15 @@ export const ProjectsCard = ({ project }) => {
         <CardFooter>Put techs here</CardFooter>
       </Stack>
     </Card>
+  );
+};
+
+export const Projects = ({ projects }) => {
+  return (
+    <Box overflowY="auto">
+      {projects.map((project, i) => (
+        <ProjectCard project={project} key={i} />
+      ))}
+    </Box>
   );
 };

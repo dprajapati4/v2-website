@@ -154,21 +154,23 @@ export const funStuff = [
   {
     name: "Snake Game",
     imgUrl: "",
-    description: "",
+    description:
+      "A snake game inspired by the iconic the Nokia snake game. Built using vanilla Javascript, HTML, and CSS. Inspired by this simple tutorial.",
     link: "",
     // technologies: ''
   },
   {
     name: "Stardew Valley Profile",
     imgUrl: "",
-    description: "",
+    description: "Built a Stardew Valley Profile to pay",
     link: "",
     // technologies: ''
   },
   {
     name: "Pokedex",
     imgUrl: "",
-    description: "",
+    description:
+      "Small React project created during an interview process to browse and search Pokémon via the Poke API.",
     link: "",
     // technologies: ''
   },
