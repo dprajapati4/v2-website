@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
       direction={{ base: "column", sm: "row" }}
       overflow="hidden"
       variant="elevated"
-      p={4}
+      p={[0, 4]}
       m={4}
       boxShadow="lg"
     >
@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
           h={{ base: "auto", sm: "150px" }}
           src={project.imgUrl}
           alt={project.title}
-          fallbackSrc="https://placehold.co/250"
+          fallbackSrc="https://placehold.co/200"
           borderRadius="md"
           m={["5px", "15px"]}
         />
@@ -61,13 +61,7 @@ const ProjectCard = ({ project }) => {
 
 export const Projects = ({ projects }) => {
   return (
-    <Box
-      display="flex"
-      flexDirection="column"
-      // alignItems="center"
-      overflowY="auto"
-      p={4}
-    >
+    <Box display="flex" flexDirection="column" overflowY="auto" p={[0, 4]}>
       {projects.map((project, i) => (
         <ProjectCard project={project} key={i} />
       ))}

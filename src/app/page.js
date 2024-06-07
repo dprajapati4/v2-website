@@ -8,6 +8,7 @@ import {
   TabPanels,
   Tab,
   TabPanel,
+  Text,
 } from "@chakra-ui/react";
 import { socials, experiences, projects, funStuff } from "./_lib/data";
 import { SocialLink } from "./_components/SocialLink";
@@ -72,6 +73,19 @@ export default function Home() {
         mt={6}
       >
         <Box w={{ base: "100%", lg: "48%" }} mb={{ base: 4, lg: 0 }}>
+          <SectionHeading>About me</SectionHeading>
+          <Text color="gray.600" fontSize="sm" p={5}>
+            I’m a NYC-based developer with a passion for science, technology,
+            and making a positive impact on the world. I graduated with a
+            Bachelor’s in Neuroscience, which fueled my curiosity about the
+            human mind and behavior. I realized I enjoyed working and building
+            software. So after graduating from the Grace Hopper Program at Full
+            Stack Academy, I went on to work at a small start-up, Bounty, where
+            I worked to help brands and creators work together to automate UGC
+            and manage creator marketing on TikTok & Instagram. When I’m not
+            coding, I enjoy playing Stardew Valley and going on long walks with
+            my dog.
+          </Text>
           <SectionHeading>Experience</SectionHeading>
           <ExperienceTable experiences={experiences} />
         </Box>

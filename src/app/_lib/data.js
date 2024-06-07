@@ -152,7 +152,7 @@ export const funStuff = [
     name: "Pokedex",
     imgUrl: pokedex,
     description:
-      "Small React project created during an interview process to browse and search Pokémon via the Poke API.",
+      "Small React project created using the Poke API to browse and search for Pokémon.",
     link: "",
     technologies: ["Javascript", "HTML", "CSS", "React"],
   },
