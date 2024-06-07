@@ -80,7 +80,7 @@ export const ExperienceTable = ({ experiences }) => {
           <Tfoot>
             <Tr>
               <Th colSpan={2} textAlign="left">
-                <Link href="/resume" isExternal>
+                <Link href="/resume.pdf" isExternal>
                   View Full Resume
                 </Link>
               </Th>
