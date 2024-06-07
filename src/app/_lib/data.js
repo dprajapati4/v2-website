@@ -1,64 +1,14 @@
-import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io5";
-import { BiLogoTypescript } from "react-icons/bi";
-import {
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiExpress, SiApollographql } from "react-icons/si";
-import { HiOutlineMail } from "react-icons/hi";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 import { BsTwitterX, BsMedium } from "react-icons/bs";
-
-export const technologies = [
-  {
-    name: "Javascript",
-    icon: IoLogoJavascript,
-    fill: "#f7df1e",
-    bg: "black",
-  },
-  {
-    name: "Typescript",
-    icon: BiLogoTypescript,
-    fill: "#007acc",
-  },
-  {
-    name: "HTML",
-    icon: FaHtml5,
-    fill: "#e34c26",
-  },
-  {
-    name: "CSS",
-    icon: FaCss3Alt,
-    fill: "#264de4",
-  },
-  {
-    name: "React",
-    icon: FaReact,
-    fill: "#61DBFB",
-    bg: null,
-  },
-  {
-    name: "Next.js",
-    icon: TbBrandNextjs,
-  },
-  {
-    name: "Node.js",
-    icon: IoLogoNodejs,
-    fill: "#3c873a",
-  },
-
-  {
-    name: "Express.js",
-    icon: SiExpress,
-  },
-  {
-    name: "Apollo GraphQL",
-    icon: SiApollographql,
-  },
-];
+import boilerplate from '../images/boilerplate.png'
+import cafecodebrew from '../images/cafecodebrew.png'
+import parksnrec from '../images/parknrec.png'
+import pokedex from '../images/pokedex.png'
+import scrapplr from '../images/scrapplr.png'
+import snake from '../images/snake.png'
+import stardew from '../images/stardewvalley.png'
+import starhopper from "../images/starhopper.png";
 
 export const socials = [
   {
@@ -74,7 +24,7 @@ export const socials = [
   {
     name: "Twitter",
     icon: BsTwitterX,
-    url: "https://www.linkedin.com/in/deepprajapati/",
+    url: "https://x.com/Lil_prajapati",
   },
   {
     name: "Medium",
@@ -128,7 +78,7 @@ export const experiences = [
 export const projects = [
   {
     name: "Scrapplr - A virtual photo book",
-    imgUrl: "",
+    imgUrl: scrapplr,
     description:
       "A progressive web application to document your trip on the go. Include photos, text, and Google panoramic views. Track your trip with Google Map and share your photos with your friends and family.",
     link: "",
@@ -142,7 +92,7 @@ export const projects = [
   },
   {
     name: "Cafe Code Brew",
-    imgUrl: "",
+    imgUrl: cafecodebrew,
     description:
       "A virtual a cafe experience. Cafe Code Brew allows its users to select a cafe ambience, music, view real cafes near you and order food. Use the onsite messaging to invite your friends to join your cafe experience.",
     link: "",
@@ -158,7 +108,7 @@ export const projects = [
   },
   {
     name: "PERN Boilerplate",
-    imgUrl: "",
+    imgUrl: boilerplate,
     description:
       "A simple PERN boilerplate. Can use to jumpstart a fullstack project using Postgres, Express.js, React.js and Node.js. A fun project to learn the basics of building a project from scratch.",
     link: "",
@@ -166,7 +116,7 @@ export const projects = [
   },
   {
     name: "Starhopper - A mock e-commerce website",
-    imgUrl: "",
+    imgUrl: starhopper,
     description:
       "A mock e-commerce website that sells all inclusive starship tickets to intergalatic stars. Take a trip to Orion and explore meteor debris, star hiking and space games.",
     link: "",
@@ -185,14 +135,14 @@ export const projects = [
 export const funStuff = [
   {
     name: "Stardew Valley Profile",
-    imgUrl: "",
+    imgUrl: stardew,
     description: "Built a Stardew Valley Profile for my character. ",
     link: "",
     technologies: ["Javascript", "React", "Next", "CSS", "Chakra UI"],
   },
   {
     name: "Snake Game",
-    imgUrl: "",
+    imgUrl: snake,
     description:
       "A snake game inspired by the iconic the Nokia snake game. Built using vanilla Javascript, HTML, and CSS. Inspired by this simple tutorial.",
     link: "",
@@ -200,7 +150,7 @@ export const funStuff = [
   },
   {
     name: "Pokedex",
-    imgUrl: "",
+    imgUrl: pokedex,
     description:
       "Small React project created during an interview process to browse and search Pokémon via the Poke API.",
     link: "",
@@ -208,7 +158,7 @@ export const funStuff = [
   },
   {
     name: "Parks and Recreation Gif Generator",
-    imgUrl: "",
+    imgUrl: parksnrec,
     description:
       "A tribute to my love for Parks and Recreation, a character Gif generator. Choose between Leslie, Ron, Anne and other main characters and generate a funny gif from the show.",
     link: "",

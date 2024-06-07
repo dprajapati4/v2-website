@@ -3,12 +3,12 @@ import {
   Card,
   CardBody,
   CardFooter,
-  Image,
   Stack,
   Text,
   Link,
   Box,
 } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/next-js";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { TechnologyTag } from "./TechnologyTag";
 const ProjectCard = ({ project }) => {
@@ -20,17 +20,19 @@ const ProjectCard = ({ project }) => {
       // maxW="full"
       p={2}
     >
-      <Image
-        objectFit="cover"
-        maxW={{ base: "100%", sm: "200px" }}
-        // w={{ base: "100%", sm: "200px" }}
-        // h={{ base: "200px", sm: "auto" }}
-
-        // src={project.link}
-        src="https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-        alt={project.title}
-      />
-
+      <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
+        <Image
+          fit="cover"
+          maxW={"250px"}
+          // maxW={{ base: "400px", sm: "350px" }}
+          // maxH={{ base: "100%", sm: "150px" }}
+          src={project.imgUrl}
+          alt={project.title}
+          fallbackSrc="https://placehold.co/250"
+          borderRadius={"2%"}
+          m={["5px", "15px"]}
+        />
+      </Box>
       <Stack>
         <CardBody>
           <Link href="https://chakra-ui.com" isExternal>
