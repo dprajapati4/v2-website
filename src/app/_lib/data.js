@@ -1,13 +1,13 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import { BsTwitterX, BsMedium } from "react-icons/bs";
-import boilerplate from '../images/boilerplate.png'
-import cafecodebrew from '../images/cafecodebrew.png'
-import parksnrec from '../images/parknrec.png'
-import pokedex from '../images/pokedex.png'
-import scrapplr from '../images/scrapplr.png'
-import snake from '../images/snake.png'
-import stardew from '../images/stardewvalley.png'
+import boilerplate from "../images/boilerplate.png";
+import cafecodebrew from "../images/cafecodebrew.png";
+import parksnrec from "../images/parknrec.png";
+import pokedex from "../images/pokedex.png";
+import scrapplr from "../images/scrapplr.png";
+import snake from "../images/snake.png";
+import stardew from "../images/stardewvalley.png";
 import starhopper from "../images/starhopper.png";
 
 export const socials = [
@@ -45,7 +45,7 @@ export const experiences = [
     employer: "Bounty",
     link: "https://www.bounty.co/",
     description:
-      "As a full stack engineer and first engineering hire at Bounty, I developed the first iterations of multiple platform projects, utilizing a comprehensive tech stack that includes TypeScript, ApolloGQL, React, and Next within a large monorepo. I played a key role in enhancing our in-house UI library by creating reusable components tailored for both mobile and web interfaces. Additionally, I designed and built internal tools for the Operations and Customer Support teams, streamlining their workflows and improving customer response times. ",
+      "Developed and maintained the initial iterations of multiple platform projects using a comprehensive tech stack, including TypeScript, ApolloGQL, React, and Next within a large monorepo. Enhanced the in-house UI library by creating reusable components for both mobile and web interfaces. Designed and built internal tools for the Operations and Customer Support teams, streamlining workflows and improving customer response times.",
     technologies: [
       "Typescript",
       "React",
@@ -63,7 +63,7 @@ export const experiences = [
     employer: "Comprehensive Consultations Psychological Services",
     link: "https://comprehendthemind.com/",
     description:
-      "In my role as a Psychometrician, I managed the daily analysis and review of 2-3 comprehensive patient tests, collaborating closely with clinical staff and patients to generate 4-5 detailed reports each week. I also supervised a team of assistant psychometricians and interns, scheduling meetings and setting both weekly and monthly goals to streamline our operations.  ",
+      "Conducted daily analysis and reviews of 2-3 comprehensive patient tests, collaborating with clinical staff and patients to generate 4-5 detailed reports weekly. Managed a team of assistant psychometricians and interns, scheduling meetings and setting both weekly and monthly goals to improve operational efficiency.",
   },
   {
     date: "Jan 2018 - Jan 2019",
@@ -71,7 +71,7 @@ export const experiences = [
     employer: "NYU College of Dentistry",
     link: "https://dental.nyu.edu/",
     description:
-      "As a Research Assistant at NYU College of Dentistry's COBRA Lab, I honed my technical skills by conducting 3D printing, microCT imaging, and nano-indentation, while also preparing polished specimen samples. My commitment to advancing research was demonstrated through monthly presentations using quantitative analysis and creative visuals. ",
+      "Developed technical skills by performing 3D printing, microCT imaging, and nano-indentation, while preparing polished specimen samples. Presented monthly research findings through quantitative analysis and creative visualizations, demonstrating a commitment to advancing research.",
   },
 ];
 
