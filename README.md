@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# V2 Website 
+
+<p align="center">
+  <img height= 32 src="./src//app/favicon.ico">
+</p>
+
+<!-- *** -->
+The second iteration of my personal website built using Next.js and deployed on Vercel. This website serves as a portfolio and a blog for me to share my thoughts and projects.
+&nbsp;
+
+***
+
+#### **Built With**
+
+I used [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) to generate the scaffolding for this app.
+
+
 
 ## Getting Started
 
@@ -34,3 +51,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## **Contact**
+***
+[Deep Prajapati](mailto:dprajap2@gmail.com?subject=[GitHub])
+
+[LinkedIn](https://www.linkedin.com/in/deepprajapati)
+
+[Github](https://github.com/dprajapati4/)
+
+
+
