@@ -80,9 +80,9 @@ export default function Home() {
             Bachelor’s in Neuroscience, which fueled my curiosity about the
             human mind and behavior. I realized I enjoyed working and building
             software. So after graduating from the Grace Hopper Program at Full
-            Stack Academy, I went on to work at a small start-up, Bounty, where
-            I worked to help brands and creators work together to automate UGC
-            and manage creator marketing on TikTok & Instagram. When I’m not
+            Stack Academy, I went on to work at a VC funded startup, Bounty,
+            where I worked to help brands and creators work together to automate
+            UGC and manage creator marketing on TikTok & Instagram. When I’m not
             coding, I enjoy playing Stardew Valley and going on long walks with
             my dog.
           </Text>
