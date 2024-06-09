@@ -1,5 +1,6 @@
 import { Providers } from "./providers";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Deep Prajapati ",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body>
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
