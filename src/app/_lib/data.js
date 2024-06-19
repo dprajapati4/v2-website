@@ -136,7 +136,8 @@ export const funStuff = [
   {
     name: "Stardew Valley Profile",
     imgUrl: stardew,
-    description: "Built a Stardew Valley Profile for my character. ",
+    description:
+      "Built a Stardew Valley Profile for my character as a Software Engineer. ",
     link: "",
     technologies: ["Javascript", "React", "Next", "CSS", "Chakra UI"],
   },
