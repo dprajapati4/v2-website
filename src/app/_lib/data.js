@@ -40,7 +40,7 @@ export const socials = [
 
 export const experiences = [
   {
-    date: "Mar 2022 - Aug 2023",
+    date: "Mar 2022 - April 2024",
     title: "Full Stack Engineer",
     employer: "Bounty",
     link: "https://www.bounty.co/",

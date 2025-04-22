@@ -99,6 +99,7 @@ export default function Home() {
                 textTransform="uppercase"
                 letterSpacing="wider"
                 fontSize="sm"
+                _hover={{ color: "teal.500", borderColor: "teal.500" }}
               >
                 Featured
               </Tab>
@@ -107,6 +108,7 @@ export default function Home() {
                 textTransform="uppercase"
                 letterSpacing="wider"
                 fontSize="sm"
+                _hover={{ color: "teal.500", borderColor: "teal.500" }}
               >
                 For Fun
               </Tab>
