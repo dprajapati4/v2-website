@@ -114,7 +114,7 @@ export const PROJECTS = [
     imgUrl: scrapplr,
     description:
       "A progressive web application to document your trip on the go. Include photos, text, and Google panoramic views. Track your trip with Google Map and share your photos with your friends and family.",
-    link: "",
+    link: "https://github.com/team-antheia/scrapplr",
     technologies: [
       "Javascript",
       "React",
@@ -128,7 +128,7 @@ export const PROJECTS = [
     imgUrl: cafecodebrew,
     description:
       "A virtual a cafe experience. Cafe Code Brew allows its users to select a cafe ambience, music, view real cafes near you and order food. Use the onsite messaging to invite your friends to join your cafe experience.",
-    link: "",
+    link: "https://github.com/dprajapati4/code_brew",
     technologies: [
       "Javascript",
       "React",
@@ -194,7 +194,7 @@ export const FUNSTUFF = [
     imgUrl: snake,
     description:
       "A snake game inspired by the iconic the Nokia snake game. Built using vanilla Javascript, HTML, and CSS. Inspired by this simple tutorial.",
-    link: "",
+    link: "https://github.com/dprajapati4/snake-game",
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
@@ -202,7 +202,7 @@ export const FUNSTUFF = [
     imgUrl: pokedex,
     description:
       "Small React project created using the Poke API to browse and search for Pokémon.",
-    link: "",
+    link: "https://github.com/dprajapati4/pokedex",
     technologies: ["Javascript", "HTML", "CSS", "React"],
   },
   {
@@ -210,7 +210,7 @@ export const FUNSTUFF = [
     imgUrl: parksnrec,
     description:
       "A tribute to my love for Parks and Recreation, a character Gif generator. Choose between Leslie, Ron, Anne and other main characters and generate a funny gif from the show.",
-    link: "",
+    link: "https://github.com/dprajapati4/parks-n-recs-gif-app",
     technologies: ["Javascript", "React", "Giphy API", "Material UI"],
   },
 ];
