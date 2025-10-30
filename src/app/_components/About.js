@@ -36,11 +36,11 @@ const About = () => {
         <Flex direction={{ base: "column", md: "row" }} gap={12}>
           <VStack align="stretch" spacing={4} color={textColor} flex={1}>
             <Text>
-              I'm a full-stack developer in NYC with a neuroscience degree and a
-              belief that the best software feels invisible. After studying
-              human behavior in labs, I wanted to shape it through code—so I
-              joined Fullstack Academy's Grace Hopper Program and landed at
-              Bounty, a VC-backed creator platform.
+              I&apos;m a full-stack developer in NYC with a neuroscience degree
+              and a belief that the best software feels invisible. After
+              studying human behavior in labs, I wanted to shape it through
+              code—so I joined Fullstack Academy&apos;s Grace Hopper Program and
+              landed at Bounty, a VC-backed creator platform.
             </Text>
             <Text>
               At Bounty, I shipped features across React and Node.js that helped
@@ -50,8 +50,8 @@ const About = () => {
               and making complex workflows feel effortless.
             </Text>
             <Text>
-              When I'm not coding, I'm optimizing my Stardew Valley farm or
-              exploring NYC with my dog.
+              When I&apos;m not coding, I&apos;m optimizing my Stardew Valley
+              farm or exploring NYC with my dog.
             </Text>
           </VStack>
           <Box
