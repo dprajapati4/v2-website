@@ -14,7 +14,6 @@ import Image from "next/image";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { PROJECTS, FUNSTUFF } from "../_lib/data";
 
-
 const ProjectCardImage = ({ src, alt }) => {
   const bg = useColorModeValue("gray.100", "gray.800");
 
@@ -22,7 +21,7 @@ const ProjectCardImage = ({ src, alt }) => {
     <Box
       position="relative"
       width="100%"
-      height="220px" // adjust card height
+      height="220px"
       bg={bg}
       borderBottom="1px solid"
       borderColor={useColorModeValue("gray.200", "gray.700")}
@@ -30,6 +29,7 @@ const ProjectCardImage = ({ src, alt }) => {
       alignItems="center"
       justifyContent="center"
       overflow="hidden"
+      p={4}
     >
       <Image
         src={src}
@@ -47,8 +47,6 @@ const ProjectCardImage = ({ src, alt }) => {
   );
 };
 
-
-
 const ProjectCard = ({ project }) => {
   const cardBg = useColorModeValue("white", "gray.800");
   const borderColor = useColorModeValue("gray.200", "gray.700");
@@ -64,8 +62,10 @@ const ProjectCard = ({ project }) => {
       isExternal
       _hover={{ textDecoration: "none" }}
       role="group"
+      h="full"
     >
-      <Box
+      <Flex
+        direction="column"
         bg={cardBg}
         borderRadius="xl"
         overflow="hidden"
@@ -76,26 +76,10 @@ const ProjectCard = ({ project }) => {
           shadow: "lg",
         }}
         transition="all 0.2s"
+        h="full"
       >
-        <ProjectCardImage src={project.imgUrl} alt={project.name}/>
-        {/* <Box aspectRatio={16 / 9} overflow="hidden" bg={imageBg}>
-          <Image
-            fit="cover"
-            src={project.imgUrl}
-            alt={project.title}
-            fallbackSrc="https://placehold.co/200"
-            borderRadius="md"
-            m={["5px", "15px"]}
-            w="full"
-            h="full"
-            _groupHover={{ transform: "scale(1.05)" }}
-            transition="transform 0.3s"
-          />
-        </Box> */}
-
-
-
-        <Box p={6}>
+        <ProjectCardImage src={project.imgUrl} alt={project.name} />
+        <Flex direction="column" p={6} flex="1">
           <Flex alignItems="center" gap={2} mb={2}>
             <Heading size="md">{project.name}</Heading>
             <ExternalLinkIcon
@@ -105,7 +89,13 @@ const ProjectCard = ({ project }) => {
               transition="opacity 0.2s"
             />
           </Flex>
-          <Text color={textColor} fontSize="sm" mb={4} lineHeight="tall">
+          <Text
+            color={textColor}
+            fontSize="sm"
+            mb={4}
+            lineHeight="tall"
+            flex="1"
+          >
             {project.description}
           </Text>
           <Flex flexWrap="wrap" gap={2}>
@@ -123,12 +113,11 @@ const ProjectCard = ({ project }) => {
               </Badge>
             ))}
           </Flex>
-        </Box>
-      </Box>
+        </Flex>
+      </Flex>
     </Link>
   );
 };
-
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("featured");
   const sectionBg = useColorModeValue("gray.50", "gray.900");
