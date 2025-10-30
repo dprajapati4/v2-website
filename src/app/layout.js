@@ -1,11 +1,19 @@
 import { Providers } from "./providers";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
+import { ColorModeScript } from "@chakra-ui/react";
+import { extendTheme } from '@chakra-ui/react'
 
 export const metadata = {
   title: "Deep Prajapati ",
   description: "Versatile and detail oriented software engineer",
 };
+const config = {
+  initialColorMode: 'light',
+  useSystemColorMode: false,
+}
+
+const theme = extendTheme({ config })
 
 export default function RootLayout({ children }) {
   return (
@@ -34,6 +42,7 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body>
+        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <Providers>{children}</Providers>
         <Analytics />
       </body>
