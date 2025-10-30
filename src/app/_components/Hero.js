@@ -43,11 +43,11 @@ const Hero = () => {
             mb={6}
             lineHeight="shorter"
           >
-            Full Stack Software Engineer
+            Software Engineer
           </Heading>
           <Text fontSize="xl" color={subTextColor} mb={8} lineHeight="tall">
-            Passionate about building efficient, accessible, and user-friendly
-            software that makes a real impact.
+            Full-stack developer eager to build products that matter.
+            Neuroscience background, startup experience, always learning.
           </Text>
           <HStack spacing={4} flexWrap="wrap">
             <Button
