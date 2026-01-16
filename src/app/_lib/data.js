@@ -43,8 +43,27 @@ export const SOCIALS = [
 
 export const EXPERIENCES = [
   {
+    date: "Jan 2026 - Present",
+    title: "Software Engineer",
+    employer: "Quality Logic",
+    link: "https://www.qualitylogic.com/",
+    description:
+      "Building production web interfaces with JavaScript, React, and Angular, emphasizing accessibility, maintainability, and performance. Applying WCAG and ARIA standards, partnering with QA on audits and remediation, and contributing to reusable components and code reviews.",
+    technologies: [
+      "Typescript",
+      "React",
+      "Angular",
+      "Node",
+      "HTML",
+      "CSS",
+      "WCAG",
+      "ARIA",
+    ],
+  },
+  ,
+  {
     date: "Mar 2022 - August 2023",
-    title: "Full Stack Engineer",
+    title: "Software Engineer",
     employer: "Bounty",
     link: "https://www.bounty.co/",
     description:

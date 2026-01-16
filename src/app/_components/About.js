@@ -36,22 +36,17 @@ const About = () => {
         <Flex direction={{ base: "column", md: "row" }} gap={12}>
           <VStack align="stretch" spacing={4} color={textColor} flex={1}>
             <Text>
-              I&apos;m a full-stack developer in NYC with a neuroscience degree
-              and a belief that the best software feels invisible. After
-              studying human behavior in labs, I wanted to shape it through
-              code—so I joined Fullstack Academy&apos;s Grace Hopper Program and
-              landed at Bounty, a VC-backed creator platform.
+              I’m a full stack software engineer in NYC with a background in
+              neuroscience and a bias toward building software that feels simple
+              and intuitive. I transitioned into engineering through Fullstack
+              Academy’s Grace Hopper Program and went on to help build Bounty, a
+              VC-funded platform used by brands and creators to automate UGC.
             </Text>
             <Text>
-              At Bounty, I shipped features across React and Node.js that helped
-              brands and creators automate campaigns on TikTok and Instagram,
-              processing thousands of collaborations. My neuroscience background
-              drives how I code: I obsess over cognitive load, friction points,
-              and making complex workflows feel effortless.
-            </Text>
-            <Text>
-              When I&apos;m not coding, I&apos;m optimizing my Stardew Valley
-              farm or exploring NYC with my dog.
+              I’ve built production features across React and Node.js in large
+              TypeScript codebases and now focus on creating accessible web
+              interfaces using WCAG standards. Outside of work, I’m optimizing
+              my Stardew Valley farm or exploring NYC with my dog.
             </Text>
           </VStack>
           <Box
